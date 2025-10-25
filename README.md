@@ -2,11 +2,11 @@
 Connect with multiple people on the same site and share a whiteboard for drawing or teaching purposes
 
 
-Prerequisites
-Node.js and npm installed
+Prerequisites:
+Node.js and npm installed,
 ngrok installed
 
-Setup
+Setup:
 Ensure that both server.js and index.html are located in your home directory.
 - Linux is currently supported for running the server.
 - Windows users can still access the site via a browser, but running the server locally on Windows is not yet supported.
