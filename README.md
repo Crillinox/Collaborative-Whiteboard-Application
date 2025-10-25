@@ -2,21 +2,20 @@
 Connect with multiple people on the same site and share a whiteboard for drawing or teaching purposes
 
 
-Prerequisites:
+**Prerequisites:**
 
 Node.js and npm installed,
 ngrok installed
 
-Setup:
+**Setup:**
 
 Ensure that both server.js and index.html are located in your home directory.
 - Linux is currently supported for running the server.
 - Windows users can still access the site via a browser, but running the server locally on Windows is not yet supported.
 
-Open a terminal and start the server: node server.js
+1. Open a terminal and start the server: node server.js
 
-In a separate terminal, start ngrok to expose your server publicly: ngrok http 3000
-
+2. In a separate terminal, start ngrok to expose your server publicly: ngrok http 3000
 
 This uses the ngrok cloud tunnel to make the server accessible externally.
 
@@ -28,7 +27,7 @@ you now have a collaborative whiteboard application
 more features will be implemented soon
 
 
-Update Log:
+**Update Log:**
 
 
 17:27 10/25/2025: version 1.0 released
