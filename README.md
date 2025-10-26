@@ -77,7 +77,7 @@ Once done, your collaborative whiteboard is ready to use.
 - Added 1000×700 canvas  
 - Added real-time connection to the same whiteboard  
 
-**12:15 10/26/2025 – Version 2.0 released**
+**12:15 10/26/2025 – Version 1.1 released**
 
 - **Room system**: Users can now create or join rooms using a 6-character code  
 - **Nickname input**: Users can set a nickname (defaults to "Anon")  
