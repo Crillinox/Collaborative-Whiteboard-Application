@@ -14,7 +14,13 @@ Connect with multiple people on the same site and share a whiteboard for drawing
 - 1000×700 canvas  
 - Real-time connection to the same whiteboard  
 
-> More features will be implemented soon.
+## Features (v1.1)
+
+- Classroom Support set up with custom rooms
+- Each room has a custom generated code non-case sensitive
+- host can kick/change permissions of other users
+- users have 2 modes: viewer and painter
+- nicknames introduced
 
 ---
 
@@ -70,6 +76,38 @@ Once done, your collaborative whiteboard is ready to use.
 - Added brush size adjustment  
 - Added 1000×700 canvas  
 - Added real-time connection to the same whiteboard  
+
+**12:15 10/26/2025 – Version 2.0 released**
+
+- **Room system**: Users can now create or join rooms using a 6-character code  
+- **Nickname input**: Users can set a nickname (defaults to "Anon")  
+- **Room-specific canvas history**: Each room maintains its own drawing history  
+- **Multiple users**: Display a user list for each room  
+- **Host assignment**: First user in a room becomes host  
+- **User roles**: Host can assign “Painter” or “Viewer” permissions  
+- **Kick functionality**: Host can remove users from the room  
+- **Dynamic toolbar enable/disable**: Toolbar is disabled for viewers  
+- **Improved flood fill**: Added optional emit for collaborative fill  
+- **Touch support**: Canvas drawing works on mobile (touch events)  
+- **Responsive UI**: Board, toolbar, and user list adapt to mobile and desktop layouts  
+- **CSS separation**: Styles moved to `style.css` with improved layout and dropdown menus  
+- **Improved canvas scaling**: Canvas scales correctly for mobile screens  
+- **Server refactor**: Rooms are now objects with `users`, `history`, and `host`  
+- **Socket events updated**:  
+  - `joinRoom` (with nickname)  
+  - `userList` with host and permissions  
+  - `setPermission` and `kickUser` host-only actions  
+  - `clear` resets room history  
+  - `init` now initializes room-specific history  
+- **UI enhancements**:  
+  - Room code display  
+  - Host dropdown menus for managing users  
+  - Painter/viewer role badges next to usernames  
+- **Bug fixes**:  
+  - Prevent unauthorized users from drawing  
+  - Automatically reassign host if original host disconnects  
+  - Delete empty rooms automatically  
+
 
 ---
 
