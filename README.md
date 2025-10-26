@@ -35,7 +35,7 @@ Before getting started, make sure you have the following installed:
 
 ## Setup
 
-Ensure that both `server.js` and `index.html` are located in your **home directory**.
+Ensure that `server.js`, `index.html`, `style.css`, and `script.js` are located in your **home directory**.
 
 > **Note:**  
 > - Linux is currently supported for running the server.  
